@@ -1,0 +1,42 @@
+D:\All Of Data\College Files\Semester 4\Perhotelan\obj\x64\Debug\Perhotelan.csprojAssemblyReference.cache
+D:\All Of Data\College Files\Semester 4\Perhotelan\obj\x64\Debug\Perhotelan.f_cekout.resources
+D:\All Of Data\College Files\Semester 4\Perhotelan\obj\x64\Debug\Perhotelan.f_cekin.resources
+D:\All Of Data\College Files\Semester 4\Perhotelan\obj\x64\Debug\Perhotelan.f_input_edit_kamar.resources
+D:\All Of Data\College Files\Semester 4\Perhotelan\obj\x64\Debug\Perhotelan.f_edit_tamu.resources
+D:\All Of Data\College Files\Semester 4\Perhotelan\obj\x64\Debug\Perhotelan.f_input_edit_karyawan.resources
+D:\All Of Data\College Files\Semester 4\Perhotelan\obj\x64\Debug\Perhotelan.f_riwayat_tamu.resources
+D:\All Of Data\College Files\Semester 4\Perhotelan\obj\x64\Debug\Perhotelan.f_tamu.resources
+D:\All Of Data\College Files\Semester 4\Perhotelan\obj\x64\Debug\Perhotelan.f_kamar.resources
+D:\All Of Data\College Files\Semester 4\Perhotelan\obj\x64\Debug\Perhotelan.f_karyawan.resources
+D:\All Of Data\College Files\Semester 4\Perhotelan\obj\x64\Debug\Perhotelan.f_login.resources
+D:\All Of Data\College Files\Semester 4\Perhotelan\obj\x64\Debug\Perhotelan.f_utama.resources
+D:\All Of Data\College Files\Semester 4\Perhotelan\obj\x64\Debug\Perhotelan.Resources.resources
+D:\All Of Data\College Files\Semester 4\Perhotelan\obj\x64\Debug\Perhotelan.csproj.GenerateResource.cache
+D:\All Of Data\College Files\Semester 4\Perhotelan\obj\x64\Debug\Perhotelan.csproj.CoreCompileInputs.cache
+D:\All Of Data\College Files\Semester 4\Perhotelan\obj\x64\Debug\Perhotelan.exe
+D:\All Of Data\College Files\Semester 4\Perhotelan\obj\x64\Debug\Perhotelan.pdb
+D:\All Of Data\College Files\Semester 4\Perhotelan\bin\x64\Debug\Perhotelan.exe.config
+D:\All Of Data\College Files\Semester 4\Perhotelan\bin\x64\Debug\Perhotelan.exe
+D:\All Of Data\College Files\Semester 4\Perhotelan\bin\x64\Debug\Perhotelan.pdb
+D:\All Of Data\College Files\Semester 4\Perhotelan\bin\x64\Debug\Perhotelan.xml
+D:\All Of Data\College Files\Perhotelan\bin\x64\Debug\Perhotelan.exe.config
+D:\All Of Data\College Files\Perhotelan\bin\x64\Debug\Perhotelan.exe
+D:\All Of Data\College Files\Perhotelan\bin\x64\Debug\Perhotelan.pdb
+D:\All Of Data\College Files\Perhotelan\bin\x64\Debug\Perhotelan.xml
+D:\All Of Data\College Files\Perhotelan\obj\x64\Debug\Perhotelan.csprojAssemblyReference.cache
+D:\All Of Data\College Files\Perhotelan\obj\x64\Debug\Perhotelan.f_cekout.resources
+D:\All Of Data\College Files\Perhotelan\obj\x64\Debug\Perhotelan.f_cekin.resources
+D:\All Of Data\College Files\Perhotelan\obj\x64\Debug\Perhotelan.f_input_edit_kamar.resources
+D:\All Of Data\College Files\Perhotelan\obj\x64\Debug\Perhotelan.f_edit_tamu.resources
+D:\All Of Data\College Files\Perhotelan\obj\x64\Debug\Perhotelan.f_input_edit_karyawan.resources
+D:\All Of Data\College Files\Perhotelan\obj\x64\Debug\Perhotelan.f_riwayat_tamu.resources
+D:\All Of Data\College Files\Perhotelan\obj\x64\Debug\Perhotelan.f_tamu.resources
+D:\All Of Data\College Files\Perhotelan\obj\x64\Debug\Perhotelan.f_kamar.resources
+D:\All Of Data\College Files\Perhotelan\obj\x64\Debug\Perhotelan.f_karyawan.resources
+D:\All Of Data\College Files\Perhotelan\obj\x64\Debug\Perhotelan.f_login.resources
+D:\All Of Data\College Files\Perhotelan\obj\x64\Debug\Perhotelan.f_utama.resources
+D:\All Of Data\College Files\Perhotelan\obj\x64\Debug\Perhotelan.Resources.resources
+D:\All Of Data\College Files\Perhotelan\obj\x64\Debug\Perhotelan.csproj.GenerateResource.cache
+D:\All Of Data\College Files\Perhotelan\obj\x64\Debug\Perhotelan.csproj.CoreCompileInputs.cache
+D:\All Of Data\College Files\Perhotelan\obj\x64\Debug\Perhotelan.exe
+D:\All Of Data\College Files\Perhotelan\obj\x64\Debug\Perhotelan.pdb

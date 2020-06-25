@@ -1,0 +1,8 @@
+Langkah - Langkah Penting Saat Fresh Start :
+1. import db_hotel terlebih dahulu
+2. install juga ODBCDriver Connector (terbaru) dan set data source yang akan dipakai (db_hotel) di administrative pada control panel
+3. jika ingin debug -> versi x64
+4. user default -> username : Admin, password = 123123
+5. 
+
+- Ahdiat Ahsan - 182102 - Kelas C (TI) - Mata Kuliah Visual Net - 2020

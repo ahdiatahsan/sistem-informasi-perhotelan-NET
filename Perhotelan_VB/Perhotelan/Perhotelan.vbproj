@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A2066DD9-D21B-478B-B9B5-A9AC5455FC04}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Perhotelan.My.MyApplication</StartupObject>
+    <RootNamespace>Perhotelan</RootNamespace>
+    <AssemblyName>Perhotelan</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Perhotelan.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Perhotelan.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>Perhotelan.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>Perhotelan.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="f_cekout.Designer.vb">
+      <DependentUpon>f_cekout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_cekout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_cekin.Designer.vb">
+      <DependentUpon>f_cekin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_cekin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_input_edit_kamar.Designer.vb">
+      <DependentUpon>f_input_edit_kamar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_input_edit_kamar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_edit_tamu.Designer.vb">
+      <DependentUpon>f_edit_tamu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_edit_tamu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_input_edit_karyawan.Designer.vb">
+      <DependentUpon>f_input_edit_karyawan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_input_edit_karyawan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_riwayat_tamu.Designer.vb">
+      <DependentUpon>f_riwayat_tamu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_riwayat_tamu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_tamu.Designer.vb">
+      <DependentUpon>f_tamu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_tamu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_kamar.Designer.vb">
+      <DependentUpon>f_kamar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_kamar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_karyawan.Designer.vb">
+      <DependentUpon>f_karyawan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_karyawan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_login.Designer.vb">
+      <DependentUpon>f_login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_utama.Designer.vb">
+      <DependentUpon>f_utama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_utama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="f_cekout.resx">
+      <DependentUpon>f_cekout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_cekin.resx">
+      <DependentUpon>f_cekin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_input_edit_kamar.resx">
+      <DependentUpon>f_input_edit_kamar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_edit_tamu.resx">
+      <DependentUpon>f_edit_tamu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_input_edit_karyawan.resx">
+      <DependentUpon>f_input_edit_karyawan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_riwayat_tamu.resx">
+      <DependentUpon>f_riwayat_tamu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_tamu.resx">
+      <DependentUpon>f_tamu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_kamar.resx">
+      <DependentUpon>f_kamar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_karyawan.resx">
+      <DependentUpon>f_karyawan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_login.resx">
+      <DependentUpon>f_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_utama.resx">
+      <DependentUpon>f_utama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\bg_utama.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\panel_illustration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\bg_main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\bed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\room.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
